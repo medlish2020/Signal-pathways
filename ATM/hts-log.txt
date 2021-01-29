@@ -1,0 +1,15 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 29 Jan 2021 11:01:39 at https://file.selleck.cn/downloads/signalpathway/svg/ATM-ATR-signaling-pathway-small.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "zh, en, *" https://file.selleck.cn/downloads/signalpathway/svg/ATM-ATR-signaling-pathway-small.html -O1 "D:\website\ATM" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:01:39	Warning: 	Cache: damaged cache, trying to repair
+11:01:39	Warning: 	Cache: 0 bytes successfully recovered in 0 entries
+11:01:39	Warning: 	Cache: error trying to open the cache
+11:01:43	Error: 	"Not Found" (404) at link https://file.selleck.cn/downloads/signalpathway/svg/edge/ (from https://file.selleck.cn/downloads/signalpathway/svg/js/vue.min.js)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 seconds : 7 links scanned, 5 files written (236087 bytes overall) [89386 bytes received at 22346 bytes/sec], 236087 bytes transferred using HTTP compression in 5 files, ratio 35%, 3.5 requests per connection
+(1 errors, 3 warnings, 0 messages)
