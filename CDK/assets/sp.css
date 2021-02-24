@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.TText{fill: white; font-weight:bold; font-size:0.8em}
+.red{fill: red; font-weight: bold;font-size: 0.99em,font-family:"Segoe UI"}
+.diaText{font-size: 0.65em;}
+a.productlink{font-size: 1em;}
+a.productlink-big{font-size: 1em;}
+/*.diaText>a:hover{fill: red;}*/
+tspan>a:hover{fill: red;}
+a.turnred,text.turnred {fill: #D00000;}
+a.turnred:hover,text.turnred:hover {fill: #FF0000;}
+a.blackturnred,text.blackturnred {fill: #000000;}
+a.blackturnred:hover,text.blackturnred:hover {fill: #FF0000;}
+.hale01 {
+  animation:1.2s linear hale alternate infinite;
+  transform-box:fill-box;
+  -ms-transform-box:fill-box;
+  -webkit-transform-box:fill-box;
+  transform-origin: center;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  }
+.hale02 {
+    animation: 1.2s linear colorchange infinite;
+    fill: #FFE1C4;
+}
+.shake {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+.changeToOrange:hover{fill:orange;}
+
+@keyframes colorchange {
+  /* 0%,13.33333% { fill: #FFE1C4;opacity: 1;}
+  14% { fill: #FFE1C4;opacity: 0.8;}
+  40% { fill: #E0FBB7;opacity: 0.8;}
+  66.66667% {fill: #E0FBB7;opacity: 0.8 }
+  100% {fill: #E0FBB7;opacity: 0 } */
+  0%{opacity: 1;}
+  13.33333% { opacity: 0.8;}
+  40% { opacity: 0.8;}
+  66.66667% {opacity: 0.8 }
+  100% {opacity: 0 }
+}
+
+@keyframes hale{
+    from{
+    opacity: 0.2;
+    }
+    20% {
+      opacity: 0.4;
+    }
+    40% {
+    opacity: 0.6;
+    }
+    60% {
+    opacity: 0.8;
+    }
+    100%{
+    opacity: 0;
+    }
+}
+@keyframes shake{
+    10%, 90% {
+        transform: translate3d(-1px, -1px, 0);
+      }
+      
+      20%, 80% {
+        transform: translate3d(2px, 2px, 0);
+      }
+    
+      30%, 50%, 70% {
+        transform: translate3d(-4px, -4px, 0);
+      }
+    
+      40%, 60% {
+        transform: translate3d(4px, 4px, 0);
+      }
+}
